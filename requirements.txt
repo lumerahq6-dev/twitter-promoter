@@ -1,0 +1,4 @@
+twikit>=2.3.3
+httpx
+pyotp
+Pillow

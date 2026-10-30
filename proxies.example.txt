@@ -1,0 +1,10 @@
+# Optional per-account proxy override. One line per account:
+#
+#   username http://user:password@host:port
+#
+# Accounts with no line here fall back to `proxy_template` in config.json, which
+# substitutes {sessid} with a stable per-account session id so each account keeps
+# its own residential exit.
+#
+# Copy to proxies.txt, which is gitignored.
+exampleuser1 http://user:password@proxy.example.com:8080

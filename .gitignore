@@ -1,0 +1,29 @@
+# Secrets — never commit
+accounts.txt
+accounts*.bak*
+proxies.txt
+config.json
+cookies/
+*.jar
+*_ct0*.txt
+
+# Runtime state
+_state.json
+_state.json.tmp
+_scheduler.lock
+data/
+*.log
+
+# Media / creatives
+media/
+media_sfw/
+media_cache/
+creatives_ready/
+creatives.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+

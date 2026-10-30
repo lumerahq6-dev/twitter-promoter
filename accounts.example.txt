@@ -1,0 +1,12 @@
+# One account per line. Fields are colon-separated; the parser is shape-tolerant,
+# so trailing fields may be omitted.
+#
+#   username:password:email:email_password:auth_token:totp_secret
+#
+#   auth_token   40-char hex cookie from a logged-in browser session (optional if
+#                a password login is possible)
+#   totp_secret  base32 2FA seed (optional)
+#
+# Copy to accounts.txt, which is gitignored. Never commit real credentials.
+exampleuser1:examplepass1:user1@mail.example:mailpass1:<40-char-hex-auth-token>:<base32-totp-seed>
+exampleuser2:examplepass2:user2@mail.example:mailpass2
